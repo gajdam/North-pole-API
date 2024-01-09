@@ -1,5 +1,26 @@
 # North Pole API
 
+This repository contains a FastAPI-based API for managing elves and packages at the North Pole. It utilizes SQLite as a database to store information about elves and their assigned packages.
+
+## Getting Started
+
+### Prerequisites
+- Python 3.7 or higher
+- [FastAPI](https://fastapi.tiangolo.com/)
+- SQLite3
+
+### Dependecies
+
+```bash 
+pip3 install "uvicorn[standard]" fastapi
+```
+
+### How to run: 
+
+```bash
+uvicorn app.main:app --reload
+```
+
 
 ## Endpoints
 
